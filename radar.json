@@ -1,55 +1,47 @@
 {
-  "edicao": 1,
-  "data": "20 de julho de 2026",
-  "chamada": "Uma semana em que as duas casas empurraram a IA para fora da conversa e para dentro do trabalho: agente que roda agendado, processo empacotado em arquivo e o botão de esforço na mão de quem usa.",
+  "edicao": 2,
+  "data": "22 de julho de 2026",
+  "chamada": "Uma semana em que as duas casas mexeram no espelho e no alcance ao mesmo tempo: painéis que mostram como você usa a IA no dia a dia, e agentes que passam a escrever no seu e-mail, calendário e arquivos com mais liberdade.",
   "itens": [
     {
-      "titulo": "GPT-5.6 chega em três níveis: Sol, Terra e Luna",
+      "titulo": "Claude Reflect: um espelho sobre como você usa a IA",
+      "plataforma": "Claude",
+      "bloco": "operador",
+      "o_que_e": "A Anthropic lançou o Reflect, painel que resume seu uso do Claude — temas mais frequentes, dias e horários de pico — e vem ao lado de uma nova seção de Tempo e Foco, com horário silencioso e lembretes de pausa opcionais. Está em beta na web e no Desktop para planos Free, Pro e Max, com a Memória ligada.",
+      "o_que_muda_pra_voce": "É o retrato de como sua rotina com IA realmente é, não como você imagina que é. Antes de emendar mais uma sessão longa, olhe o recap e pergunte: o que você quer continuar fazendo com as próprias mãos, mesmo que o Claude fizesse mais rápido?",
+      "fonte_url": "https://techcrunch.com/2026/07/09/anthropics-new-claude-feature-is-quietly-selling-you-on-ai/"
+    },
+    {
+      "titulo": "Voz do ChatGPT ganha modelo full-duplex: GPT-Live-1",
+      "plataforma": "ChatGPT",
+      "bloco": "executor",
+      "o_que_e": "A OpenAI reconstruiu o modo de voz em torno do GPT-Live-1, modelo que escuta e fala ao mesmo tempo, interpreta interrupções e entonação, e pode usar busca na web e memória durante a conversa. Vira padrão nos planos Go, Plus e Pro; contas Business, Enterprise e Edu ainda ficam de fora.",
+      "o_que_muda_pra_voce": "Uma conversa falada com a IA deixa de ser pergunta-e-resposta em turnos e passa a aceitar interrupção, do jeito que você fala com uma pessoa. Vale testar para pensar em voz alta um rascunho de ideia, mas ainda não chega ao ambiente corporativo.",
+      "fonte_url": "https://openai.com/index/introducing-gpt-live/"
+    },
+    {
+      "titulo": "ChatGPT Work ganha busca única e projetos maiores no desktop",
+      "plataforma": "ChatGPT",
+      "bloco": "orquestrador",
+      "o_que_e": "O app de desktop passou a ter um alternador entre Chat e Work, busca unificada entre conversas, projetos, imagens e documentos, e os Projetos agora aceitam até 40 arquivos nos planos Business, Enterprise e Edu — o dobro do limite anterior.",
+      "o_que_muda_pra_voce": "Fica mais fácil manter o contexto de um projeto grande sem abrir buscas separadas para cada tipo de conteúdo. Se o seu projeto de verdade esbarrava no limite de arquivos, é hora de revisitar essa organização.",
+      "fonte_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+      "titulo": "Claude no Microsoft 365 pode escrever, não só ler",
+      "plataforma": "Claude",
+      "bloco": "orquestrador",
+      "o_que_e": "O conector do Microsoft 365 ganhou ferramentas de escrita: o Claude passa a redigir e enviar e-mail, gerenciar eventos de calendário e criar ou atualizar arquivos no OneDrive e no SharePoint. E-mails enviados pelo agente trazem cabeçalho de atribuição, com limites de envio e sem suporte a anexos. Vem desligado por padrão e exige aprovação do administrador da organização.",
+      "o_que_muda_pra_voce": "O agente sai do \"me ajuda a escrever\" para o \"manda por mim\", com rastro de que foi ele quem agiu. Antes de pedir para ligar essa opção na sua conta, confirme com o administrador quais limites de envio e destinatários fazem sentido para a sua área.",
+      "fonte_url": "https://support.claude.com/en/articles/15183774-connect-to-microsoft-365"
+    },
+    {
+      "titulo": "Instruções personalizadas do ChatGPT saltam de 1.500 para 5.000 caracteres",
       "plataforma": "ChatGPT",
       "bloco": "operador",
-      "o_que_e": "A OpenAI passou a oferecer o modelo em três níveis de capacidade, com ajuste de esforço. Planos gratuito e Go acessam o intermediário; planos pagos escolhem entre os três.",
-      "o_que_muda_pra_voce": "Escolher modelo virou decisão sua. Tarefa simples pede o rápido; análise que sustenta decisão pede o mais capaz com esforço alto. Usar sempre o máximo gasta cota sem ganho.",
-      "fonte_url": "https://help.openai.com/pt-br/articles/6825453-chatgpt-notas-de-versao"
-    },
-    {
-      "titulo": "ChatGPT Work: tarefas longas, agendadas e com aprovação",
-      "plataforma": "ChatGPT",
-      "bloco": "orquestrador",
-      "o_que_e": "Um agente que pesquisa, atua em apps e arquivos conectados e produz documentos, planilhas e apresentações. Roda tarefas agendadas — uma vez, recorrentes ou por gatilho — e deixa você acompanhar e aprovar ações importantes.",
-      "o_que_muda_pra_voce": "A rotina de segunda-feira pode passar a rodar sozinha. Antes de agendar qualquer coisa, faça a prática 26: defina o critério de sucesso e os pontos onde ela para e pede sua aprovação.",
-      "fonte_url": "https://exame.com/inteligencia-artificial/gpt-5-6-modo-work-e-app-unico-as-novidades-do-chatgpt-este-mes/"
-    },
-    {
-      "titulo": "Skills também no ChatGPT, com upload de arquivo",
-      "plataforma": "ChatGPT",
-      "bloco": "orquestrador",
-      "o_que_e": "Processos podem ser empacotados como instruções permanentes, criados por chat, por editor ou enviados do seu computador — e compartilhados com o workspace.",
-      "o_que_muda_pra_voce": "As duas casas agora falam o mesmo formato. Uma skill que você escreve hoje serve nas duas, e o processo da sua área deixa de morar só na sua cabeça.",
-      "fonte_url": "https://help.openai.com/en/articles/20001066-skills-in-chatgpt"
-    },
-    {
-      "titulo": "Claude Cowork sai do computador: web e celular",
-      "plataforma": "Claude",
-      "bloco": "orquestrador",
-      "o_que_e": "O agente que executa tarefas com arquivos reais passou a rodar também no navegador e no celular, com tarefas em segundo plano e continuidade mesmo com o seu aparelho desligado. Busca de arquivo local e navegação seguem no desktop.",
-      "o_que_muda_pra_voce": "Dá para disparar do celular uma tarefa que leva meia hora e voltar depois. Útil para quem vive entre reuniões e unidades.",
-      "fonte_url": "https://www.tecmundo.com.br/software/414433-anthropic-leva-claude-cowork-para-celular-e-navegador-saiba-como-funciona.htm"
-    },
-    {
-      "titulo": "Opus 4.8 é treinado para apontar a própria incerteza",
-      "plataforma": "Claude",
-      "bloco": "executor",
-      "o_que_e": "A versão foca em confiabilidade: evitar conclusão precipitada e sinalizar quando não tem base suficiente, em vez de sustentar afirmação sem fundamento. Chega com Controle de Esforço em todos os planos.",
-      "o_que_muda_pra_voce": "A prática 8 ficou mais poderosa. Peça a classificação entre confirmado, provável e não sei — o modelo agora colabora com isso em vez de resistir.",
-      "fonte_url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8"
-    },
-    {
-      "titulo": "Grave a tela e transforme em skill",
-      "plataforma": "Claude",
-      "bloco": "orquestrador",
-      "o_que_e": "No Cowork, dá para ensinar um processo gravando a tela enquanto você executa a tarefa. A gravação vira uma skill instalável.",
-      "o_que_muda_pra_voce": "É o caminho mais curto do Portão 2 quando o seu processo é mais fácil de mostrar do que de escrever. Grave uma vez, entregue a quem não participou, observe onde trava.",
-      "fonte_url": "https://claude.com/skills"
+      "o_que_e": "Usuários dos planos Plus, Pro, Business, Enterprise e Education podem escrever até 5.000 caracteres de instruções personalizadas, mais de três vezes o limite anterior de 1.500.",
+      "o_que_muda_pra_voce": "Dá para detalhar de verdade como você trabalha — papel, tom, restrições, exemplos — em vez de resumir tudo em duas frases apertadas. Revise suas instruções agora que sobra espaço para o contexto que antes ficava de fora.",
+      "fonte_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
     }
   ]
 }
