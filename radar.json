@@ -1,0 +1,55 @@
+{
+  "edicao": 1,
+  "data": "20 de julho de 2026",
+  "chamada": "Uma semana em que as duas casas empurraram a IA para fora da conversa e para dentro do trabalho: agente que roda agendado, processo empacotado em arquivo e o botão de esforço na mão de quem usa.",
+  "itens": [
+    {
+      "titulo": "GPT-5.6 chega em três níveis: Sol, Terra e Luna",
+      "plataforma": "ChatGPT",
+      "bloco": "operador",
+      "o_que_e": "A OpenAI passou a oferecer o modelo em três níveis de capacidade, com ajuste de esforço. Planos gratuito e Go acessam o intermediário; planos pagos escolhem entre os três.",
+      "o_que_muda_pra_voce": "Escolher modelo virou decisão sua. Tarefa simples pede o rápido; análise que sustenta decisão pede o mais capaz com esforço alto. Usar sempre o máximo gasta cota sem ganho.",
+      "fonte_url": "https://help.openai.com/pt-br/articles/6825453-chatgpt-notas-de-versao"
+    },
+    {
+      "titulo": "ChatGPT Work: tarefas longas, agendadas e com aprovação",
+      "plataforma": "ChatGPT",
+      "bloco": "orquestrador",
+      "o_que_e": "Um agente que pesquisa, atua em apps e arquivos conectados e produz documentos, planilhas e apresentações. Roda tarefas agendadas — uma vez, recorrentes ou por gatilho — e deixa você acompanhar e aprovar ações importantes.",
+      "o_que_muda_pra_voce": "A rotina de segunda-feira pode passar a rodar sozinha. Antes de agendar qualquer coisa, faça a prática 26: defina o critério de sucesso e os pontos onde ela para e pede sua aprovação.",
+      "fonte_url": "https://exame.com/inteligencia-artificial/gpt-5-6-modo-work-e-app-unico-as-novidades-do-chatgpt-este-mes/"
+    },
+    {
+      "titulo": "Skills também no ChatGPT, com upload de arquivo",
+      "plataforma": "ChatGPT",
+      "bloco": "orquestrador",
+      "o_que_e": "Processos podem ser empacotados como instruções permanentes, criados por chat, por editor ou enviados do seu computador — e compartilhados com o workspace.",
+      "o_que_muda_pra_voce": "As duas casas agora falam o mesmo formato. Uma skill que você escreve hoje serve nas duas, e o processo da sua área deixa de morar só na sua cabeça.",
+      "fonte_url": "https://help.openai.com/en/articles/20001066-skills-in-chatgpt"
+    },
+    {
+      "titulo": "Claude Cowork sai do computador: web e celular",
+      "plataforma": "Claude",
+      "bloco": "orquestrador",
+      "o_que_e": "O agente que executa tarefas com arquivos reais passou a rodar também no navegador e no celular, com tarefas em segundo plano e continuidade mesmo com o seu aparelho desligado. Busca de arquivo local e navegação seguem no desktop.",
+      "o_que_muda_pra_voce": "Dá para disparar do celular uma tarefa que leva meia hora e voltar depois. Útil para quem vive entre reuniões e unidades.",
+      "fonte_url": "https://www.tecmundo.com.br/software/414433-anthropic-leva-claude-cowork-para-celular-e-navegador-saiba-como-funciona.htm"
+    },
+    {
+      "titulo": "Opus 4.8 é treinado para apontar a própria incerteza",
+      "plataforma": "Claude",
+      "bloco": "executor",
+      "o_que_e": "A versão foca em confiabilidade: evitar conclusão precipitada e sinalizar quando não tem base suficiente, em vez de sustentar afirmação sem fundamento. Chega com Controle de Esforço em todos os planos.",
+      "o_que_muda_pra_voce": "A prática 8 ficou mais poderosa. Peça a classificação entre confirmado, provável e não sei — o modelo agora colabora com isso em vez de resistir.",
+      "fonte_url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8"
+    },
+    {
+      "titulo": "Grave a tela e transforme em skill",
+      "plataforma": "Claude",
+      "bloco": "orquestrador",
+      "o_que_e": "No Cowork, dá para ensinar um processo gravando a tela enquanto você executa a tarefa. A gravação vira uma skill instalável.",
+      "o_que_muda_pra_voce": "É o caminho mais curto do Portão 2 quando o seu processo é mais fácil de mostrar do que de escrever. Grave uma vez, entregue a quem não participou, observe onde trava.",
+      "fonte_url": "https://claude.com/skills"
+    }
+  ]
+}
