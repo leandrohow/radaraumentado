@@ -1,55 +1,47 @@
 {
-  "edicao": 1,
-  "data": "20 de julho de 2026",
-  "chamada": "Uma semana em que as duas casas empurraram a IA para fora da conversa e para dentro do trabalho: agente que roda agendado, processo empacotado em arquivo e o botão de esforço na mão de quem usa.",
+  "edicao": 2,
+  "data": "5 de outubro de 2026",
+  "chamada": "Semana em que o processo empacotado chegou ao Gemini e o agente que trabalha sozinho ganhou endereço fixo no ChatGPT: a pergunta deixa de ser o que pedir e passa a ser o que deixar rodando.",
   "itens": [
     {
-      "titulo": "GPT-5.6 chega em três níveis: Sol, Terra e Luna",
-      "plataforma": "ChatGPT",
-      "bloco": "operador",
-      "o_que_e": "A OpenAI passou a oferecer o modelo em três níveis de capacidade, com ajuste de esforço. Planos gratuito e Go acessam o intermediário; planos pagos escolhem entre os três.",
-      "o_que_muda_pra_voce": "Escolher modelo virou decisão sua. Tarefa simples pede o rápido; análise que sustenta decisão pede o mais capaz com esforço alto. Usar sempre o máximo gasta cota sem ganho.",
-      "fonte_url": "https://help.openai.com/pt-br/articles/6825453-chatgpt-notas-de-versao"
+      "titulo": "Gemini ganha skills: instruções reutilizáveis que se empilham",
+      "plataforma": "Gemini",
+      "bloco": "orquestrador",
+      "o_que_e": "Skills são instruções personalizadas reutilizáveis que funcionam dentro da conversa do Gemini e da maioria dos apps do Workspace, e podem ser combinadas no mesmo pedido. No Workspace o lançamento começa em 5 de outubro; no app do Gemini, em 13 de outubro, com conclusão prevista para meados de novembro. O Google descreve a transição dos Gems para skills.",
+      "o_que_muda_pra_voce": "Se você usa Gems para repetir um jeito de trabalhar, reescreva os principais como skills e teste empilhar duas no mesmo pedido (por exemplo, voz da marca + roteiro de aula). Confira no painel do seu domínio em que data o recurso chega, porque domínios de liberação programada recebem depois.",
+      "fonte_url": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html"
     },
     {
-      "titulo": "ChatGPT Work: tarefas longas, agendadas e com aprovação",
+      "titulo": "ChatGPT lança dots, agentes que trabalham entre conversas",
       "plataforma": "ChatGPT",
       "bloco": "orquestrador",
-      "o_que_e": "Um agente que pesquisa, atua em apps e arquivos conectados e produz documentos, planilhas e apresentações. Roda tarefas agendadas — uma vez, recorrentes ou por gatilho — e deixa você acompanhar e aprovar ações importantes.",
-      "o_que_muda_pra_voce": "A rotina de segunda-feira pode passar a rodar sozinha. Antes de agendar qualquer coisa, faça a prática 26: defina o critério de sucesso e os pontos onde ela para e pede sua aprovação.",
-      "fonte_url": "https://exame.com/inteligencia-artificial/gpt-5-6-modo-work-e-app-unico-as-novidades-do-chatgpt-este-mes/"
+      "o_que_e": "Dots são agentes sempre ativos: você dá uma meta, conecta os apps e define o que ele pode fazer sozinho; ele trabalha em computador próprio na nuvem e devolve resultados para sua revisão. Em liberação gradual para usuários elegíveis dos planos Pro e Business Premium, maiores de 18 anos; no Pro, fora do EEE, Suíça e Reino Unido no lançamento.",
+      "o_que_muda_pra_voce": "Antes de dar uma meta a um dot, escreva três coisas: o que conta como pronto, quais apps ele pode tocar e o que ele só pode fazer depois da sua aprovação. Comece por uma rotina de baixo risco e leia o que ele devolve durante a primeira semana. O uso não conta na cota do plano por um mês; depois disso, passa a contar.",
+      "fonte_url": "https://openai.com/index/introducing-dots/"
     },
     {
-      "titulo": "Skills também no ChatGPT, com upload de arquivo",
-      "plataforma": "ChatGPT",
-      "bloco": "orquestrador",
-      "o_que_e": "Processos podem ser empacotados como instruções permanentes, criados por chat, por editor ou enviados do seu computador — e compartilhados com o workspace.",
-      "o_que_muda_pra_voce": "As duas casas agora falam o mesmo formato. Uma skill que você escreve hoje serve nas duas, e o processo da sua área deixa de morar só na sua cabeça.",
-      "fonte_url": "https://help.openai.com/en/articles/20001066-skills-in-chatgpt"
-    },
-    {
-      "titulo": "Claude Cowork sai do computador: web e celular",
+      "titulo": "Claude: tudo do Cowork disponível em qualquer conversa",
       "plataforma": "Claude",
-      "bloco": "orquestrador",
-      "o_que_e": "O agente que executa tarefas com arquivos reais passou a rodar também no navegador e no celular, com tarefas em segundo plano e continuidade mesmo com o seu aparelho desligado. Busca de arquivo local e navegação seguem no desktop.",
-      "o_que_muda_pra_voce": "Dá para disparar do celular uma tarefa que leva meia hora e voltar depois. Útil para quem vive entre reuniões e unidades.",
-      "fonte_url": "https://www.tecmundo.com.br/software/414433-anthropic-leva-claude-cowork-para-celular-e-navegador-saiba-como-funciona.htm"
+      "bloco": "operador",
+      "o_que_e": "A Anthropic liberou uma experiência em que a pessoa faz uma pergunta rápida ou entrega uma tarefa maior (relatório, planilha, apresentação) sem escolher um modo antes. Claude Design, Slides e Docs também podem ser criados em qualquer conversa.",
+      "o_que_muda_pra_voce": "Você não precisa mais decidir antes se a conversa é de bate-papo ou de tarefa. Descreva o entregável final no primeiro pedido (formato, público, prazo) e deixe o Claude escolher o caminho. Vale refazer uma tarefa que você dividia em duas conversas.",
+      "fonte_url": "https://support.claude.com/en/articles/12138966-release-notes"
     },
     {
-      "titulo": "Opus 4.8 é treinado para apontar a própria incerteza",
+      "titulo": "Claude Opus 5.5 e Sonnet 5.5 substituem a geração anterior",
       "plataforma": "Claude",
       "bloco": "executor",
-      "o_que_e": "A versão foca em confiabilidade: evitar conclusão precipitada e sinalizar quando não tem base suficiente, em vez de sustentar afirmação sem fundamento. Chega com Controle de Esforço em todos os planos.",
-      "o_que_muda_pra_voce": "A prática 8 ficou mais poderosa. Peça a classificação entre confirmado, provável e não sei — o modelo agora colabora com isso em vez de resistir.",
-      "fonte_url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-claude-4-8"
+      "o_que_e": "O Opus 5.5 (22 de setembro) abre a família 5.5 e, segundo a Anthropic, rende como o Fable 5.1 na maior parte do trabalho, com custo 40% menor que o Opus 5. O Sonnet 5.5 (28 de setembro) é a opção mais rápida e barata da família.",
+      "o_que_muda_pra_voce": "Reveja o modelo que você escolhe por hábito: tarefa de rotina no Sonnet 5.5, análise que sustenta decisão no Opus 5.5. Se um prompt seu foi ajustado para modelos antigos, rode-o de novo no modelo novo e compare antes de reescrever. A disponibilidade por plano varia.",
+      "fonte_url": "https://support.claude.com/en/articles/12138966-release-notes"
     },
     {
-      "titulo": "Grave a tela e transforme em skill",
-      "plataforma": "Claude",
-      "bloco": "orquestrador",
-      "o_que_e": "No Cowork, dá para ensinar um processo gravando a tela enquanto você executa a tarefa. A gravação vira uma skill instalável.",
-      "o_que_muda_pra_voce": "É o caminho mais curto do Portão 2 quando o seu processo é mais fácil de mostrar do que de escrever. Grave uma vez, entregue a quem não participou, observe onde trava.",
-      "fonte_url": "https://claude.com/skills"
+      "titulo": "ChatGPT junta várias fotos de páginas em um único PDF",
+      "plataforma": "ChatGPT",
+      "bloco": "executor",
+      "o_que_e": "No celular, a câmera do ChatGPT passou a capturar várias páginas em sequência e combiná-las automaticamente em um PDF para enviar à conversa.",
+      "o_que_muda_pra_voce": "Anotação de caderno, quadro de reunião e documento impresso de várias páginas entram na conversa de uma vez. Fotografe tudo em sequência e peça o resumo ou os pontos de ação em um único pedido, em vez de enviar foto por foto.",
+      "fonte_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
     }
   ]
 }
