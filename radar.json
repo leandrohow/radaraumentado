@@ -1,31 +1,39 @@
 {
-  "edicao": 3,
-  "data": "12 de outubro de 2026",
-  "chamada": "Semana de ajustes pequenos: o ChatGPT trocou de modelo e ganhou áudio como entrada, e a Anthropic completou a família 5.5 com o modelo pequeno.",
+  "edicao": 4,
+  "data": "26 de outubro de 2026",
+  "chamada": "Semana em que o assistente passou a trabalhar sozinho: o Claude ganhou um agente proativo e o Gemini trocou os Gems por skills.",
   "itens": [
     {
-      "titulo": "ChatGPT passa a usar o GPT-6, com respostas que misturam texto e interface",
-      "plataforma": "ChatGPT",
-      "bloco": "executor",
-      "o_que_e": "Em 7 de outubro o ChatGPT começou a liberar o GPT-6 com Intelligent UI, que pode combinar texto, elementos visuais e ferramentas interativas (calculadora, jogos) na própria resposta. Plus, Pro, Business e Enterprise recebem o GPT-6 Sol; Free e Go, o GPT-6 Luna, a partir de 8 de outubro. A opção de raciocínio do Pro segue no GPT-6 Astra, sem Intelligent UI.",
-      "o_que_muda_pra_voce": "Quando você pedir uma comparação, uma simulação ou um cálculo, diga que quer um resultado interativo e veja se a resposta vem pronta para mexer, em vez de uma tabela estática. Prompts que você guarda e reutiliza foram escritos para o modelo anterior: rode os dois ou três mais importantes de novo e compare antes de confiar neles. No plano Pro, o modo de raciocínio não traz a interface interativa.",
-      "fonte_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-    },
-    {
-      "titulo": "ChatGPT aceita arquivos de áudio para transcrever e resumir",
-      "plataforma": "ChatGPT",
-      "bloco": "executor",
-      "o_que_e": "Desde 6 de outubro, assinantes pagos e workspaces podem enviar arquivos de áudio ao ChatGPT e receber transcrição, resumo e respostas sobre a gravação. A OpenAI avisa que a transcrição pode ter erros e que a qualidade varia por idioma.",
-      "o_que_muda_pra_voce": "Gravação de reunião, de entrevista ou nota de voz agora entra direto na conversa. Envie o arquivo e peça, no mesmo pedido, decisões tomadas, responsáveis e prazos. Confira nomes próprios e números contra a gravação antes de circular o resumo, e teste antes com um áudio em português.",
-      "fonte_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-    },
-    {
-      "titulo": "Claude Haiku 5.5 completa a família 5.5",
+      "titulo": "Claude Duet: agente proativo em prévia para Pro e Max",
       "plataforma": "Claude",
-      "bloco": "executor",
-      "o_que_e": "Em 7 de outubro a Anthropic lançou o Haiku 5.5, que descreve como o modelo pequeno mais barato, mais rápido e mais capaz que já fez, voltado a tarefas de alto volume e sensíveis a custo. A nota de versão não informa a disponibilidade por plano.",
-      "o_que_muda_pra_voce": "Se você repete a mesma tarefa curta muitas vezes (classificar mensagens, extrair campos, padronizar textos), teste o Haiku 5.5 no lugar do modelo maior com 10 exemplos reais e compare o resultado. Se a qualidade aguentar, você ganha velocidade e custo. Para análise que sustenta decisão, mantenha o modelo maior. Confira no seletor da sua conta se ele já aparece.",
+      "bloco": "orquestrador",
+      "o_que_e": "Em 21 de outubro a Anthropic abriu, como prévia de pesquisa, o Claude Duet, um app em que o Claude age como agente proativo. A nota oficial cita os planos Pro e Max; a imprensa relata acesso por lista de espera e, por ora, só nos EUA, o que a nota não confirma.",
+      "o_que_muda_pra_voce": "Se você tem Pro ou Max, veja se o Duet já aparece na sua conta antes de planejar qualquer coisa em cima dele. Quando liberar, comece por um escopo pequeno e de baixo risco (resumo da manhã, triagem de caixa de entrada) e leia cada aviso antes de aprovar uma ação. Não conecte contas com dados sensíveis enquanto for prévia. A disponibilidade varia por região e plano.",
       "fonte_url": "https://support.claude.com/en/articles/12138966-release-notes"
+    },
+    {
+      "titulo": "Gemini: skills substituem a barra / e os Gems mudam de lugar em 17/11",
+      "plataforma": "Gemini",
+      "bloco": "orquestrador",
+      "o_que_e": "Desde 13 de outubro as skills começaram a chegar ao app do Gemini, com conclusão prevista para meados de novembro; no app, elas se chamam com @ e o menu Customize reúne skills e conectores. A chegada ao Workspace foi adiada sem nova data, e os Gems passam para o painel de Configurações em 17 de novembro, ainda podendo ser criados, editados e usados.",
+      "o_que_muda_pra_voce": "Quem ensina ou usa Gems como forma de guardar instruções reutilizáveis deve passar a criar a versão em skill no app do Gemini e testá-la chamando com @. Skills criadas no app não aparecem sozinhas no Workspace: se sua equipe trabalha no Gmail, Docs ou Sheets, mantenha o Gem atual até o Workspace liberar. Atualize roteiros e prints que mostram a barra / ou o nome Connected Apps (agora Connectors).",
+      "fonte_url": "https://workspaceupdates.googleblog.com/2026/10/an-update-on-launch-of-skills-in-gemini-app-and-workspace.html"
+    },
+    {
+      "titulo": "ChatGPT ganha chats trancados com PIN ou biometria",
+      "plataforma": "ChatGPT",
+      "bloco": "executor",
+      "o_que_e": "Em 20 de outubro o ChatGPT começou a liberar, de forma gradual, os chats trancados: conversas escolhidas saem do histórico, dos fixados e da busca, e abrem só com PIN ou autenticação do aparelho. A OpenAI avisa que não é criptografia de ponta a ponta nem muda retenção ou o uso para treinamento.",
+      "o_que_muda_pra_voce": "Use para tirar da vista conversas pessoais ou de rascunho num aparelho compartilhado, mas não trate como cofre: dado confidencial de cliente continua sujeito à política de dados da sua conta. Anote o PIN, porque, segundo a cobertura da imprensa, redefini-lo apaga as conversas trancadas sem recuperação. A disponibilidade varia por plano e chega aos poucos.",
+      "fonte_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+    },
+    {
+      "titulo": "Gemini 4 Argon chega ao app para assinantes Pro e Ultra",
+      "plataforma": "Gemini",
+      "bloco": "executor",
+      "o_que_e": "Em 13 de outubro o Google lançou o Gemini 4 Argon no app do Gemini, para assinantes do Google AI Pro e Ultra. A mesma nota traz o Antigravity no app para macOS; há relatos divergentes sobre o plano exigido para ele.",
+      "o_que_muda_pra_voce": "Se você tem Pro ou Ultra, selecione o Argon e rode de novo os dois ou três pedidos que você mais reutiliza, comparando com a resposta anterior antes de trocar o modelo de rotina. Instruções escritas para o modelo antigo podem render diferente. Se você usa o plano gratuito ou o Workspace, confira no seletor se o modelo aparece: a disponibilidade varia.",
+      "fonte_url": "https://gemini.google/release-notes/"
     }
   ]
 }
