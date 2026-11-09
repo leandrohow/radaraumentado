@@ -1,39 +1,23 @@
 {
-  "edicao": 4,
-  "data": "26 de outubro de 2026",
-  "chamada": "Semana em que o assistente passou a trabalhar sozinho: o Claude ganhou um agente proativo e o Gemini trocou os Gems por skills.",
+  "edicao": 5,
+  "data": "9 de novembro de 2026",
+  "chamada": "Semana de ajustes pequenos: o Claude abriu dinheiro pessoal e controle de gasto por projeto, e as plataformas rivais não puderam ser conferidas na fonte oficial.",
   "itens": [
     {
-      "titulo": "Claude Duet: agente proativo em prévia para Pro e Max",
+      "titulo": "Claude lê suas contas e finanças pessoais (beta, só nos EUA)",
       "plataforma": "Claude",
-      "bloco": "orquestrador",
-      "o_que_e": "Em 21 de outubro a Anthropic abriu, como prévia de pesquisa, o Claude Duet, um app em que o Claude age como agente proativo. A nota oficial cita os planos Pro e Max; a imprensa relata acesso por lista de espera e, por ora, só nos EUA, o que a nota não confirma.",
-      "o_que_muda_pra_voce": "Se você tem Pro ou Max, veja se o Duet já aparece na sua conta antes de planejar qualquer coisa em cima dele. Quando liberar, comece por um escopo pequeno e de baixo risco (resumo da manhã, triagem de caixa de entrada) e leia cada aviso antes de aprovar uma ação. Não conecte contas com dados sensíveis enquanto for prévia. A disponibilidade varia por região e plano.",
+      "bloco": "operador",
+      "o_que_e": "Em 5 de novembro a Anthropic lançou em beta o Personal Finance in Claude: é possível ligar contas bancárias, cartões, empréstimos e investimentos e ver saldos e gastos numa página, além de fazer perguntas ao Claude sobre eles. A nota oficial restringe a beta, aos planos Pro, Max e Ultra e aos EUA.",
+      "o_que_muda_pra_voce": "Se você está nos EUA com Pro, Max ou Ultra, teste com uma única conta e pergunte algo verificável (ex.: gastos do mês por categoria) conferindo contra o extrato antes de confiar nas respostas. Por ser beta e dado financeiro, não ligue contas de empresa nem de clientes. Fora dos EUA, nada muda agora: o recurso não está disponível.",
       "fonte_url": "https://support.claude.com/en/articles/12138966-release-notes"
     },
     {
-      "titulo": "Gemini: skills substituem a barra / e os Gems mudam de lugar em 17/11",
-      "plataforma": "Gemini",
+      "titulo": "Claude Enterprise: gasto por projeto com tags de centro de custo (beta)",
+      "plataforma": "Claude",
       "bloco": "orquestrador",
-      "o_que_e": "Desde 13 de outubro as skills começaram a chegar ao app do Gemini, com conclusão prevista para meados de novembro; no app, elas se chamam com @ e o menu Customize reúne skills e conectores. A chegada ao Workspace foi adiada sem nova data, e os Gems passam para o painel de Configurações em 17 de novembro, ainda podendo ser criados, editados e usados.",
-      "o_que_muda_pra_voce": "Quem ensina ou usa Gems como forma de guardar instruções reutilizáveis deve passar a criar a versão em skill no app do Gemini e testá-la chamando com @. Skills criadas no app não aparecem sozinhas no Workspace: se sua equipe trabalha no Gmail, Docs ou Sheets, mantenha o Gem atual até o Workspace liberar. Atualize roteiros e prints que mostram a barra / ou o nome Connected Apps (agora Connectors).",
-      "fonte_url": "https://workspaceupdates.googleblog.com/2026/10/an-update-on-launch-of-skills-in-gemini-app-and-workspace.html"
-    },
-    {
-      "titulo": "ChatGPT ganha chats trancados com PIN ou biometria",
-      "plataforma": "ChatGPT",
-      "bloco": "executor",
-      "o_que_e": "Em 20 de outubro o ChatGPT começou a liberar, de forma gradual, os chats trancados: conversas escolhidas saem do histórico, dos fixados e da busca, e abrem só com PIN ou autenticação do aparelho. A OpenAI avisa que não é criptografia de ponta a ponta nem muda retenção ou o uso para treinamento.",
-      "o_que_muda_pra_voce": "Use para tirar da vista conversas pessoais ou de rascunho num aparelho compartilhado, mas não trate como cofre: dado confidencial de cliente continua sujeito à política de dados da sua conta. Anote o PIN, porque, segundo a cobertura da imprensa, redefini-lo apaga as conversas trancadas sem recuperação. A disponibilidade varia por plano e chega aos poucos.",
-      "fonte_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
-    },
-    {
-      "titulo": "Gemini 4 Argon chega ao app para assinantes Pro e Ultra",
-      "plataforma": "Gemini",
-      "bloco": "executor",
-      "o_que_e": "Em 13 de outubro o Google lançou o Gemini 4 Argon no app do Gemini, para assinantes do Google AI Pro e Ultra. A mesma nota traz o Antigravity no app para macOS; há relatos divergentes sobre o plano exigido para ele.",
-      "o_que_muda_pra_voce": "Se você tem Pro ou Ultra, selecione o Argon e rode de novo os dois ou três pedidos que você mais reutiliza, comparando com a resposta anterior antes de trocar o modelo de rotina. Instruções escritas para o modelo antigo podem render diferente. Se você usa o plano gratuito ou o Workspace, confira no seletor se o modelo aparece: a disponibilidade varia.",
-      "fonte_url": "https://gemini.google/release-notes/"
+      "o_que_e": "Em 6 de novembro a Anthropic liberou em beta, para organizações Enterprise elegíveis, a marcação de projetos com códigos já usados (centro de custo, número de cliente ou caso) e a visão do gasto agrupado por tag.",
+      "o_que_muda_pra_voce": "Se você administra um Claude Enterprise, marque agora os projetos ativos com o código de cliente ou centro de custo que o financeiro já usa, para que o gasto de IA possa ser repassado por cliente sem planilha paralela. Quem não está em Enterprise ou não é admin não precisa fazer nada. A disponibilidade varia por organização.",
+      "fonte_url": "https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags"
     }
   ]
 }
