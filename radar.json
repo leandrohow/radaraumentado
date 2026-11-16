@@ -1,23 +1,23 @@
 {
-  "edicao": 5,
-  "data": "9 de novembro de 2026",
-  "chamada": "Semana de ajustes pequenos: o Claude abriu dinheiro pessoal e controle de gasto por projeto, e as plataformas rivais não puderam ser conferidas na fonte oficial.",
+  "edicao": 6,
+  "data": "16 de novembro de 2026",
+  "chamada": "Semana curta: o Claude entrou nas reuniões e ganhou um modelo novo no topo, e as novidades de ChatGPT e Gemini não puderam ser conferidas na fonte oficial.",
   "itens": [
     {
-      "titulo": "Claude lê suas contas e finanças pessoais (beta, só nos EUA)",
-      "plataforma": "Claude",
-      "bloco": "operador",
-      "o_que_e": "Em 5 de novembro a Anthropic lançou em beta o Personal Finance in Claude: é possível ligar contas bancárias, cartões, empréstimos e investimentos e ver saldos e gastos numa página, além de fazer perguntas ao Claude sobre eles. A nota oficial restringe a beta, aos planos Pro, Max e Ultra e aos EUA.",
-      "o_que_muda_pra_voce": "Se você está nos EUA com Pro, Max ou Ultra, teste com uma única conta e pergunte algo verificável (ex.: gastos do mês por categoria) conferindo contra o extrato antes de confiar nas respostas. Por ser beta e dado financeiro, não ligue contas de empresa nem de clientes. Fora dos EUA, nada muda agora: o recurso não está disponível.",
-      "fonte_url": "https://support.claude.com/en/articles/12138966-release-notes"
-    },
-    {
-      "titulo": "Claude Enterprise: gasto por projeto com tags de centro de custo (beta)",
+      "titulo": "Claude Meetings: o Claude entra na chamada do Google Meet (beta)",
       "plataforma": "Claude",
       "bloco": "orquestrador",
-      "o_que_e": "Em 6 de novembro a Anthropic liberou em beta, para organizações Enterprise elegíveis, a marcação de projetos com códigos já usados (centro de custo, número de cliente ou caso) e a visão do gasto agrupado por tag.",
-      "o_que_muda_pra_voce": "Se você administra um Claude Enterprise, marque agora os projetos ativos com o código de cliente ou centro de custo que o financeiro já usa, para que o gasto de IA possa ser repassado por cliente sem planilha paralela. Quem não está em Enterprise ou não é admin não precisa fazer nada. A disponibilidade varia por organização.",
-      "fonte_url": "https://support.claude.com/en/articles/18251257-track-spend-by-project-with-tags"
+      "o_que_e": "Em 12 de novembro a Anthropic começou a liberar em beta, nos planos Team e Enterprise, o Claude Meetings: o Claude entra numa chamada do Google Meet como participante visível, toma notas, responde perguntas e monta documentos, quadros e slides durante a reunião. Exige Google Calendar conectado; não grava áudio, mas salva transcrição, resumo e itens de ação, e sai da chamada se entrar alguém de fora da organização (no Enterprise, só se o admin não liberar).",
+      "o_que_muda_pra_voce": "Se você tem Team ou Enterprise, comece adicionando o Claude a uma única reunião interna recorrente, avisando os participantes antes (a própria Anthropic recomenda pedir consentimento para a transcrição), e só ligue a entrada automática depois disso. Antes de mandar o resumo ou os itens de ação para o time, aplique a prática de Responsabilidade das práticas de travessia, na régua: releia como se fosse assinar embaixo, porque vai. Organizações com ZDR, HIPAA ou CMEK ainda não têm acesso.",
+      "fonte_url": "https://support.claude.com/en/articles/18325154-use-claude-meetings"
+    },
+    {
+      "titulo": "Claude Fable 5.2 chega aos apps, com limite de uso no Pro",
+      "plataforma": "Claude",
+      "bloco": "executor",
+      "o_que_e": "Em 9 de novembro a Anthropic lançou o Claude Fable 5.2 nos apps do Claude e na API, com esforço médio como padrão e respostas até 30% mais rápidas que o 5.1. No Pro e nos assentos padrão do Team, o Fable usa no máximo 50% do limite semanal; a própria Anthropic recomenda começar o trabalho com o Opus 5.5 e subir para o Fable só nas tarefas mais ambiciosas e abertas.",
+      "o_que_muda_pra_voce": "Não troque o modelo de rotina no escuro: pegue os pedidos salvos da prática de Diálogo 'cinco pedidos que você repete', nas práticas de travessia da régua, rode-os no Opus 5.5 e no Fable 5.2 e só mude onde a diferença aparecer. Se você está no Pro ou num assento padrão do Team, guarde o Fable para tarefas longas e abertas, porque ele consome metade do seu limite semanal antes de travar.",
+      "fonte_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
     }
   ]
 }
